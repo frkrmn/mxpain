@@ -1,0 +1,14 @@
+{
+  "name": "deribit-max-pain-scraper",
+  "version": "1.0.0",
+  "description": "Deribit BTC/ETH/SOL/XRP Max Pain scraper (Puppeteer)",
+  "main": "scraper.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node scraper.js",
+    "debug": "SCRAPER_HEADLESS=false node scraper.js"
+  },
+  "dependencies": {
+    "puppeteer": "^23.0.0"
+  }
+}

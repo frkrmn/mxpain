@@ -1,0 +1,64 @@
+name: Deribit Max Pain Scraper
+
+on:
+  schedule:
+    # GitHub Actions cron her zaman UTC'dir -> 06:30 UTC
+    - cron: "30 6 * * *"
+  workflow_dispatch: {}   # Actions sekmesinden manuel "Run workflow" için
+
+# max_pain_data.json'a commit atabilmek için yazma izni gerekli
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Repoyu checkout et
+        uses: actions/checkout@v4
+
+      - name: Node.js kur
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Bağımlılıkları kur
+        run: npm ci
+
+      - name: Puppeteer/Chrome için gerekli sistem kütüphaneleri
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libnss3 libatk-bridge2.0-0 libx11-xcomposite1 libxcomposite1 \
+            libxdamage1 libxrandr2 libgbm1 libasound2t64 libpangocairo-1.0-0 \
+            libxshmfence1 libxfixes3 libxext6 fonts-liberation
+
+      - name: Scraper'ı çalıştır
+        run: node scraper.js
+        env:
+          SCRAPER_HEADLESS: "true"
+
+      - name: Log dosyasını Actions çıktısına yazdır (debug için)
+        if: always()
+        run: cat scraper.log || true
+
+      - name: Sonuçları repoya commit et
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add max_pain_data.json scraper.log
+          git diff --staged --quiet && echo "Değişiklik yok, commit atlanıyor" && exit 0
+          git commit -m "chore: max pain verisi güncellendi ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+          git push
+
+      - name: Çalıştırma başarısız olursa scraper.log'u artifact olarak yükle
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scraper-log-${{ github.run_id }}
+          path: |
+            scraper.log
+            max_pain_data.json
