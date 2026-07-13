@@ -49,7 +49,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add max_pain_data.json scraper.log
+          git add solxprmxpn.json scraper.log
           git diff --staged --quiet && echo "Değişiklik yok, commit atlanıyor" && exit 0
           git commit -m "chore: max pain verisi güncellendi ($(date -u +'%Y-%m-%d %H:%M UTC'))"
           git push
@@ -61,4 +61,4 @@ jobs:
           name: scraper-log-${{ github.run_id }}
           path: |
             scraper.log
-            max_pain_data.json
+            solxprmxpn.json
