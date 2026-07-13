@@ -42,7 +42,7 @@ const puppeteer = require('puppeteer');
 const SYMBOLS = ['BTC', 'ETH', 'SOL', 'XRP'];
 const BASE_URL = (symbol) => `https://www.deribit.com/statistics/${symbol}/Metrics/Options`;
 
-const OUTPUT_FILE = path.join(__dirname, 'max_pain_data.json');
+const OUTPUT_FILE = path.join(__dirname, 'solxprmxpn.json');
 const LOG_FILE = path.join(__dirname, 'scraper.log');
 
 const HEADLESS = process.env.SCRAPER_HEADLESS !== 'false';
