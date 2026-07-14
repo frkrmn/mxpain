@@ -184,14 +184,14 @@
     ]
   },
   {
-    "run_timestamp_utc": "2026-07-14T04:00:02.036Z",
+    "run_timestamp_utc": "2026-07-14T04:00:02.029Z",
     "target_expiry_label": "31 Jul 26",
     "results": [
       {
         "symbol": "BTC",
         "url": "https://www.deribit.com/statistics/BTC/Metrics/Options",
         "target_expiry_label": "31 Jul 26",
-        "scraped_at_utc": "2026-07-14T04:00:07.336Z",
+        "scraped_at_utc": "2026-07-14T04:00:07.279Z",
         "max_pain_raw_text": "Max Pain Price $64,000.00",
         "max_pain_value": 64000,
         "date_selection_succeeded": true,
@@ -201,7 +201,7 @@
         "symbol": "ETH",
         "url": "https://www.deribit.com/statistics/ETH/Metrics/Options",
         "target_expiry_label": "31 Jul 26",
-        "scraped_at_utc": "2026-07-14T04:00:28.334Z",
+        "scraped_at_utc": "2026-07-14T04:00:28.363Z",
         "max_pain_raw_text": "Max Pain Price $1,800.00",
         "max_pain_value": 1800,
         "date_selection_succeeded": true,
@@ -211,7 +211,7 @@
         "symbol": "SOL",
         "url": "https://www.deribit.com/statistics/SOL/Metrics/Options",
         "target_expiry_label": "31 Jul 26",
-        "scraped_at_utc": "2026-07-14T04:00:44.058Z",
+        "scraped_at_utc": "2026-07-14T04:00:44.784Z",
         "max_pain_raw_text": "Max Pain Price $75.00",
         "max_pain_value": 75,
         "date_selection_succeeded": true,
@@ -221,7 +221,7 @@
         "symbol": "XRP",
         "url": "https://www.deribit.com/statistics/XRP/Metrics/Options",
         "target_expiry_label": "31 Jul 26",
-        "scraped_at_utc": "2026-07-14T04:00:59.511Z",
+        "scraped_at_utc": "2026-07-14T04:00:59.396Z",
         "max_pain_raw_text": "Max Pain Price $1.15",
         "max_pain_value": 1.15,
         "date_selection_succeeded": true,
