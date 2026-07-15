@@ -284,8 +284,8 @@ async function run() {
     await browser.close();
   }
 
-  existing.push(runBatch);
-  saveData(existing);
+  // existing.push(runBatch); // sadece bugunun verisi yazilsin
+  saveData([runBatch]); // sadece bugunun verisi
 
   return runBatch;
 }
