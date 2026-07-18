@@ -386,3 +386,25 @@ TROUBLESHOOTING: https://pptr.dev/troubleshooting
 2026-07-18T06:01:01.148Z Tarih seçildi: "31 Jul 26" (selector: .base-Option-root)
 2026-07-18T06:01:03.669Z [XRP] Max Pain = 1.15 (tarih seçimi başarılı: true)
 2026-07-18T06:01:05.041Z 1 toplam kayıt "/home/scraper/mxpain/solxprmxpn.json" dosyasına yazıldı.
+2026-07-18T08:16:20.539Z Bu çalıştırma için hedef vade: 31 Jul 26
+2026-07-18T08:16:20.849Z [BTC] sayfaya gidiliyor: https://www.deribit.com/statistics/BTC/Metrics/Options
+2026-07-18T08:16:25.693Z Tarih seçici açıldı, kullanılan selector: .base-Select-root
+2026-07-18T08:16:28.695Z UYARI: "base--active" class'ı doğrulanamadı, sabit bekleme ile devam ediliyor.
+2026-07-18T08:16:29.163Z Tarih seçildi: "31 Jul 26" (selector: .base-Option-root)
+2026-07-18T08:16:31.665Z [BTC] Max Pain = 64000 (tarih seçimi başarılı: true)
+2026-07-18T08:16:32.677Z [ETH] sayfaya gidiliyor: https://www.deribit.com/statistics/ETH/Metrics/Options
+2026-07-18T08:16:36.810Z Tarih seçici açıldı, kullanılan selector: .base-Select-root
+2026-07-18T08:16:39.811Z UYARI: "base--active" class'ı doğrulanamadı, sabit bekleme ile devam ediliyor.
+2026-07-18T08:16:40.272Z Tarih seçildi: "31 Jul 26" (selector: .base-Option-root)
+2026-07-18T08:16:42.774Z [ETH] Max Pain = 1800 (tarih seçimi başarılı: true)
+2026-07-18T08:16:43.786Z [SOL] sayfaya gidiliyor: https://www.deribit.com/statistics/SOL/Metrics/Options
+2026-07-18T08:16:47.873Z Tarih seçici açıldı, kullanılan selector: .base-Select-root
+2026-07-18T08:16:50.876Z UYARI: "base--active" class'ı doğrulanamadı, sabit bekleme ile devam ediliyor.
+2026-07-18T08:16:51.334Z Tarih seçildi: "31 Jul 26" (selector: .base-Option-root)
+2026-07-18T08:16:53.837Z [SOL] Max Pain = 75 (tarih seçimi başarılı: true)
+2026-07-18T08:16:54.852Z [XRP] sayfaya gidiliyor: https://www.deribit.com/statistics/XRP/Metrics/Options
+2026-07-18T08:16:58.955Z Tarih seçici açıldı, kullanılan selector: .base-Select-root
+2026-07-18T08:17:01.957Z UYARI: "base--active" class'ı doğrulanamadı, sabit bekleme ile devam ediliyor.
+2026-07-18T08:17:02.408Z Tarih seçildi: "31 Jul 26" (selector: .base-Option-root)
+2026-07-18T08:17:04.911Z [XRP] Max Pain = 1.15 (tarih seçimi başarılı: true)
+2026-07-18T08:17:05.986Z 1 toplam kayıt "/home/runner/work/mxpain/mxpain/solxprmxpn.json" dosyasına yazıldı.
