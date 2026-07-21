@@ -1,46 +1,46 @@
 [
   {
-    "run_timestamp_utc": "2026-07-21T06:48:45.277Z",
+    "run_timestamp_utc": "2026-07-21T09:08:41.746Z",
     "target_expiry_label": "31 Jul 26",
     "results": [
       {
         "symbol": "BTC",
         "url": "https://www.deribit.com/statistics/BTC/Metrics/Options",
         "target_expiry_label": "31 Jul 26",
-        "scraped_at_utc": "2026-07-21T06:48:46.492Z",
-        "max_pain_raw_text": "Max Pain Price $64,000.00",
-        "max_pain_value": 64000,
-        "date_selection_succeeded": true,
+        "scraped_at_utc": "2026-07-21T09:08:42.286Z",
+        "max_pain_raw_text": null,
+        "max_pain_value": null,
+        "date_selection_succeeded": false,
         "error": null
       },
       {
         "symbol": "ETH",
         "url": "https://www.deribit.com/statistics/ETH/Metrics/Options",
         "target_expiry_label": "31 Jul 26",
-        "scraped_at_utc": "2026-07-21T06:49:01.270Z",
-        "max_pain_raw_text": "Max Pain Price $1,800.00",
-        "max_pain_value": 1800,
-        "date_selection_succeeded": true,
+        "scraped_at_utc": "2026-07-21T09:09:21.239Z",
+        "max_pain_raw_text": null,
+        "max_pain_value": null,
+        "date_selection_succeeded": false,
         "error": null
       },
       {
         "symbol": "SOL",
         "url": "https://www.deribit.com/statistics/SOL/Metrics/Options",
         "target_expiry_label": "31 Jul 26",
-        "scraped_at_utc": "2026-07-21T06:49:15.322Z",
-        "max_pain_raw_text": "Max Pain Price $75.00",
-        "max_pain_value": 75,
-        "date_selection_succeeded": true,
+        "scraped_at_utc": "2026-07-21T09:10:00.163Z",
+        "max_pain_raw_text": null,
+        "max_pain_value": null,
+        "date_selection_succeeded": false,
         "error": null
       },
       {
         "symbol": "XRP",
         "url": "https://www.deribit.com/statistics/XRP/Metrics/Options",
         "target_expiry_label": "31 Jul 26",
-        "scraped_at_utc": "2026-07-21T06:49:28.671Z",
-        "max_pain_raw_text": "Max Pain Price $1.15",
-        "max_pain_value": 1.15,
-        "date_selection_succeeded": true,
+        "scraped_at_utc": "2026-07-21T09:10:39.091Z",
+        "max_pain_raw_text": null,
+        "max_pain_value": null,
+        "date_selection_succeeded": false,
         "error": null
       }
     ]
