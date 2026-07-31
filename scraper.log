@@ -950,3 +950,25 @@ TROUBLESHOOTING: https://pptr.dev/troubleshooting
 2026-07-31T06:01:06.781Z Tarih seçildi: "31 Jul 26" (selector: .base-Option-root)
 2026-07-31T06:01:09.288Z [XRP] Max Pain = 1.15 (tarih seçimi başarılı: true)
 2026-07-31T06:01:10.664Z 1 toplam kayıt "/home/scraper/mxpain/solxprmxpn.json" dosyasına yazıldı.
+2026-07-31T09:22:59.815Z Bu çalıştırma için hedef vade: 31 Jul 26
+2026-07-31T09:23:00.165Z [BTC] sayfaya gidiliyor: https://www.deribit.com/statistics/BTC/Metrics/Options
+2026-07-31T09:23:04.328Z Tarih seçici açıldı, kullanılan selector: .base-Select-root
+2026-07-31T09:23:07.331Z UYARI: "base--active" class'ı doğrulanamadı, sabit bekleme ile devam ediliyor.
+2026-07-31T09:23:07.950Z UYARI: "31 Jul 26" eşleşen bir tarih seçeneği bulunamadı.
+2026-07-31T09:23:10.454Z [BTC] UYARI: Max Pain değeri sayfada bulunamadı.
+2026-07-31T09:23:11.469Z [ETH] sayfaya gidiliyor: https://www.deribit.com/statistics/ETH/Metrics/Options
+2026-07-31T09:23:15.308Z Tarih seçici açıldı, kullanılan selector: .base-Select-root
+2026-07-31T09:23:18.311Z UYARI: "base--active" class'ı doğrulanamadı, sabit bekleme ile devam ediliyor.
+2026-07-31T09:23:18.901Z UYARI: "31 Jul 26" eşleşen bir tarih seçeneği bulunamadı.
+2026-07-31T09:23:21.404Z [ETH] UYARI: Max Pain değeri sayfada bulunamadı.
+2026-07-31T09:23:22.417Z [SOL] sayfaya gidiliyor: https://www.deribit.com/statistics/SOL/Metrics/Options
+2026-07-31T09:23:26.238Z Tarih seçici açıldı, kullanılan selector: .base-Select-root
+2026-07-31T09:23:29.241Z UYARI: "base--active" class'ı doğrulanamadı, sabit bekleme ile devam ediliyor.
+2026-07-31T09:23:29.786Z UYARI: "31 Jul 26" eşleşen bir tarih seçeneği bulunamadı.
+2026-07-31T09:23:32.289Z [SOL] UYARI: Max Pain değeri sayfada bulunamadı.
+2026-07-31T09:23:33.304Z [XRP] sayfaya gidiliyor: https://www.deribit.com/statistics/XRP/Metrics/Options
+2026-07-31T09:23:37.155Z Tarih seçici açıldı, kullanılan selector: .base-Select-root
+2026-07-31T09:23:40.158Z UYARI: "base--active" class'ı doğrulanamadı, sabit bekleme ile devam ediliyor.
+2026-07-31T09:23:40.694Z UYARI: "31 Jul 26" eşleşen bir tarih seçeneği bulunamadı.
+2026-07-31T09:23:43.197Z [XRP] UYARI: Max Pain değeri sayfada bulunamadı.
+2026-07-31T09:23:44.296Z 1 toplam kayıt "/home/runner/work/mxpain/mxpain/solxprmxpn.json" dosyasına yazıldı.
