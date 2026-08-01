@@ -1,13 +1,13 @@
 [
   {
-    "run_timestamp_utc": "2026-07-31T09:22:59.816Z",
-    "target_expiry_label": "31 Jul 26",
+    "run_timestamp_utc": "2026-08-01T06:00:05.059Z",
+    "target_expiry_label": "31 Aug 26",
     "results": [
       {
         "symbol": "BTC",
         "url": "https://www.deribit.com/statistics/BTC/Metrics/Options",
-        "target_expiry_label": "31 Jul 26",
-        "scraped_at_utc": "2026-07-31T09:23:00.217Z",
+        "target_expiry_label": "31 Aug 26",
+        "scraped_at_utc": "2026-08-01T06:00:08.700Z",
         "max_pain_raw_text": null,
         "max_pain_value": null,
         "date_selection_succeeded": false,
@@ -16,8 +16,8 @@
       {
         "symbol": "ETH",
         "url": "https://www.deribit.com/statistics/ETH/Metrics/Options",
-        "target_expiry_label": "31 Jul 26",
-        "scraped_at_utc": "2026-07-31T09:23:11.513Z",
+        "target_expiry_label": "31 Aug 26",
+        "scraped_at_utc": "2026-08-01T06:00:40.675Z",
         "max_pain_raw_text": null,
         "max_pain_value": null,
         "date_selection_succeeded": false,
@@ -26,8 +26,8 @@
       {
         "symbol": "SOL",
         "url": "https://www.deribit.com/statistics/SOL/Metrics/Options",
-        "target_expiry_label": "31 Jul 26",
-        "scraped_at_utc": "2026-07-31T09:23:22.456Z",
+        "target_expiry_label": "31 Aug 26",
+        "scraped_at_utc": "2026-08-01T06:01:08.833Z",
         "max_pain_raw_text": null,
         "max_pain_value": null,
         "date_selection_succeeded": false,
@@ -36,8 +36,8 @@
       {
         "symbol": "XRP",
         "url": "https://www.deribit.com/statistics/XRP/Metrics/Options",
-        "target_expiry_label": "31 Jul 26",
-        "scraped_at_utc": "2026-07-31T09:23:33.352Z",
+        "target_expiry_label": "31 Aug 26",
+        "scraped_at_utc": "2026-08-01T06:01:32.527Z",
         "max_pain_raw_text": null,
         "max_pain_value": null,
         "date_selection_succeeded": false,
