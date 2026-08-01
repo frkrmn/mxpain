@@ -9,9 +9,9 @@
  *   https://www.deribit.com/statistics/SOL/Metrics/Options
  *   https://www.deribit.com/statistics/XRP/Metrics/Options
  *
- * Tarih seçiciden mevcut ayın son gününü seçer (örn. "31 Jul 26"),
- * grafikteki "Max Pain Price $X.XX" yazısını okur ve max_pain_data.json
- * dosyasına ekler.
+ * Tarih seçiciden mevcut ayın son Cuma gününü seçer (örn. Ağustos 2026
+ * için "28 Aug 26"), grafikteki "Max Pain Price $X.XX" yazısını okur ve
+ * max_pain_data.json dosyasına ekler.
  *
  * ---------------------------------------------------------------------
  * ÖNEMLİ NOT
@@ -92,11 +92,15 @@ function log(msg) {
   fs.appendFileSync(LOG_FILE, line + '\n');
 }
 
-function lastDayOfCurrentMonthUTC(now = new Date()) {
-  // Bir sonraki ayın 0. günü = bu ayın son günü (UTC)
+function lastFridayOfCurrentMonthUTC(now = new Date()) {
+  // Bir sonraki ayın 0. günü = bu ayın son günü (UTC), sonra geriye
+  // doğru Cuma (getUTCDay() === 5) bulana kadar günleri azalt.
   const year = now.getUTCFullYear();
   const month = now.getUTCMonth(); // 0-indexed
-  return new Date(Date.UTC(year, month + 1, 0));
+  const lastDay = new Date(Date.UTC(year, month + 1, 0));
+  const daysSinceFriday = (lastDay.getUTCDay() - 5 + 7) % 7; // 5 = Cuma
+  lastDay.setUTCDate(lastDay.getUTCDate() - daysSinceFriday);
+  return lastDay;
 }
 
 function formatPickerLabel(date) {
@@ -258,7 +262,7 @@ function saveData(records) {
 }
 
 async function run() {
-  const targetDate = lastDayOfCurrentMonthUTC();
+  const targetDate = lastFridayOfCurrentMonthUTC();
   const targetLabel = formatPickerLabel(targetDate);
   log(`Bu çalıştırma için hedef vade: ${targetLabel}`);
 
