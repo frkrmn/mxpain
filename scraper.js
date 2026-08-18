@@ -39,7 +39,7 @@ const puppeteer = require('puppeteer');
 // Config
 // --------------------------------------------------------------------
 
-const SYMBOLS = ['BTC', 'ETH', 'SOL', 'XRP'];
+const SYMBOLS = ['BTC', 'ETH', 'SOL', 'XRP', 'HYPE'];
 const BASE_URL = (symbol) => `https://www.deribit.com/statistics/${symbol}/Metrics/Options`;
 
 const OUTPUT_FILE = path.join(__dirname, 'solxprmxpn.json');
