@@ -29,7 +29,7 @@
         "target_expiry_label": "28 Aug 26",
         "scraped_at_utc": "2026-08-30T12:05:15.717Z",
         "max_pain_raw_text": null,
-        "max_pain_value": null,
+        "max_pain_value": 82,
         "date_selection_succeeded": false,
         "error": null
       },
@@ -39,7 +39,7 @@
         "target_expiry_label": "28 Aug 26",
         "scraped_at_utc": "2026-08-30T12:05:26.580Z",
         "max_pain_raw_text": null,
-        "max_pain_value": null,
+        "max_pain_value": 1.50,
         "date_selection_succeeded": false,
         "error": null
       },
@@ -49,7 +49,7 @@
         "target_expiry_label": "28 Aug 26",
         "scraped_at_utc": "2026-08-30T12:05:37.430Z",
         "max_pain_raw_text": null,
-        "max_pain_value": null,
+        "max_pain_value": 58,
         "date_selection_succeeded": false,
         "error": null
       }
