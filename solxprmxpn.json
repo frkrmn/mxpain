@@ -8,8 +8,8 @@
         "url": "https://www.deribit.com/statistics/BTC/Metrics/Options",
         "target_expiry_label": "28 Aug 26",
         "scraped_at_utc": "2026-08-31T06:00:06.936Z",
-        "max_pain_raw_text": 70,000.00,
-        "max_pain_value": 70,000.00,
+        "max_pain_raw_text": 70,000,
+        "max_pain_value": 70,000,
         "date_selection_succeeded": false,
         "error": null
       },
