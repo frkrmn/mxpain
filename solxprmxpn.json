@@ -1,15 +1,15 @@
 [
   {
-    "run_timestamp_utc": "2026-08-31T06:00:05.030Z",
+    "run_timestamp_utc": "2026-08-31T14:14:02.561Z",
     "target_expiry_label": "28 Aug 26",
     "results": [
       {
         "symbol": "BTC",
         "url": "https://www.deribit.com/statistics/BTC/Metrics/Options",
         "target_expiry_label": "28 Aug 26",
-        "scraped_at_utc": "2026-08-31T06:00:06.936Z",
+        "scraped_at_utc": "2026-08-31T14:14:02.862Z",
         "max_pain_raw_text": null,
-        "max_pain_value": 70000,
+        "max_pain_value": null,
         "date_selection_succeeded": false,
         "error": null
       },
@@ -17,9 +17,9 @@
         "symbol": "ETH",
         "url": "https://www.deribit.com/statistics/ETH/Metrics/Options",
         "target_expiry_label": "28 Aug 26",
-        "scraped_at_utc": "2026-08-31T06:00:26.507Z",
+        "scraped_at_utc": "2026-08-31T14:14:14.631Z",
         "max_pain_raw_text": null,
-        "max_pain_value": 2100,
+        "max_pain_value": null,
         "date_selection_succeeded": false,
         "error": null
       },
@@ -27,9 +27,9 @@
         "symbol": "SOL",
         "url": "https://www.deribit.com/statistics/SOL/Metrics/Options",
         "target_expiry_label": "28 Aug 26",
-        "scraped_at_utc": "2026-08-31T06:00:47.951Z",
+        "scraped_at_utc": "2026-08-31T14:14:26.041Z",
         "max_pain_raw_text": null,
-        "max_pain_value": 84,
+        "max_pain_value": null,
         "date_selection_succeeded": false,
         "error": null
       },
@@ -37,9 +37,9 @@
         "symbol": "XRP",
         "url": "https://www.deribit.com/statistics/XRP/Metrics/Options",
         "target_expiry_label": "28 Aug 26",
-        "scraped_at_utc": "2026-08-31T06:01:02.694Z",
+        "scraped_at_utc": "2026-08-31T14:14:37.310Z",
         "max_pain_raw_text": null,
-        "max_pain_value": 1.50,
+        "max_pain_value": null,
         "date_selection_succeeded": false,
         "error": null
       },
@@ -47,9 +47,9 @@
         "symbol": "HYPE",
         "url": "https://www.deribit.com/statistics/HYPE/Metrics/Options",
         "target_expiry_label": "28 Aug 26",
-        "scraped_at_utc": "2026-08-31T06:01:18.683Z",
+        "scraped_at_utc": "2026-08-31T14:14:48.643Z",
         "max_pain_raw_text": null,
-        "max_pain_value": 76,
+        "max_pain_value": null,
         "date_selection_succeeded": false,
         "error": null
       }
