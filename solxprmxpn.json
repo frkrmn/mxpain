@@ -8,8 +8,8 @@
         "url": "https://www.deribit.com/statistics/BTC/Metrics/Options",
         "target_expiry_label": "28 Aug 26",
         "scraped_at_utc": "2026-08-31T06:00:06.936Z",
-        "max_pain_raw_text": null,
-        "max_pain_value": null,
+        "max_pain_raw_text": 70,000.00,
+        "max_pain_value": 70,000.00,
         "date_selection_succeeded": false,
         "error": null
       },
@@ -18,8 +18,8 @@
         "url": "https://www.deribit.com/statistics/ETH/Metrics/Options",
         "target_expiry_label": "28 Aug 26",
         "scraped_at_utc": "2026-08-31T06:00:26.507Z",
-        "max_pain_raw_text": null,
-        "max_pain_value": null,
+        "max_pain_raw_text": 2,100.00,
+        "max_pain_value": 2,100.00,
         "date_selection_succeeded": false,
         "error": null
       },
@@ -28,8 +28,8 @@
         "url": "https://www.deribit.com/statistics/SOL/Metrics/Options",
         "target_expiry_label": "28 Aug 26",
         "scraped_at_utc": "2026-08-31T06:00:47.951Z",
-        "max_pain_raw_text": null,
-        "max_pain_value": null,
+        "max_pain_raw_text": 84.00,
+        "max_pain_value": 84.00,
         "date_selection_succeeded": false,
         "error": null
       },
@@ -38,8 +38,8 @@
         "url": "https://www.deribit.com/statistics/XRP/Metrics/Options",
         "target_expiry_label": "28 Aug 26",
         "scraped_at_utc": "2026-08-31T06:01:02.694Z",
-        "max_pain_raw_text": null,
-        "max_pain_value": null,
+        "max_pain_raw_text": 1.50,
+        "max_pain_value": 1.50,
         "date_selection_succeeded": false,
         "error": null
       },
@@ -48,8 +48,8 @@
         "url": "https://www.deribit.com/statistics/HYPE/Metrics/Options",
         "target_expiry_label": "28 Aug 26",
         "scraped_at_utc": "2026-08-31T06:01:18.683Z",
-        "max_pain_raw_text": null,
-        "max_pain_value": null,
+        "max_pain_raw_text": 76.00,
+        "max_pain_value": 76.00,
         "date_selection_succeeded": false,
         "error": null
       }
