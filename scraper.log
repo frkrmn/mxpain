@@ -2732,3 +2732,30 @@ TROUBLESHOOTING: https://pptr.dev/troubleshooting
 2026-09-04T06:01:21.072Z Tarih seçildi: "25 Sep 26" (selector: .base-Option-root)
 2026-09-04T06:01:23.576Z [HYPE] Max Pain = 76 (tarih seçimi başarılı: true)
 2026-09-04T06:01:24.887Z 1 toplam kayıt "/home/scraper/mxpain/solxprmxpn.json" dosyasına yazıldı.
+2026-09-04T11:35:26.020Z Bu çalıştırma için hedef vade: 25 Sep 26
+2026-09-04T11:35:26.632Z [BTC] sayfaya gidiliyor: https://www.deribit.com/statistics/BTC/Metrics/Options
+2026-09-04T11:35:31.340Z Tarih seçici açıldı, kullanılan selector: .base-Select-root
+2026-09-04T11:35:34.342Z UYARI: "base--active" class'ı doğrulanamadı, sabit bekleme ile devam ediliyor.
+2026-09-04T11:35:34.812Z Tarih seçildi: "25 Sep 26" (selector: .base-Option-root)
+2026-09-04T11:35:37.315Z [BTC] Max Pain = 72000 (tarih seçimi başarılı: true)
+2026-09-04T11:35:38.329Z [ETH] sayfaya gidiliyor: https://www.deribit.com/statistics/ETH/Metrics/Options
+2026-09-04T11:35:42.448Z Tarih seçici açıldı, kullanılan selector: .base-Select-root
+2026-09-04T11:35:45.450Z UYARI: "base--active" class'ı doğrulanamadı, sabit bekleme ile devam ediliyor.
+2026-09-04T11:35:45.920Z Tarih seçildi: "25 Sep 26" (selector: .base-Option-root)
+2026-09-04T11:35:48.422Z [ETH] Max Pain = 2150 (tarih seçimi başarılı: true)
+2026-09-04T11:35:49.433Z [SOL] sayfaya gidiliyor: https://www.deribit.com/statistics/SOL/Metrics/Options
+2026-09-04T11:35:53.502Z Tarih seçici açıldı, kullanılan selector: .base-Select-root
+2026-09-04T11:35:56.502Z UYARI: "base--active" class'ı doğrulanamadı, sabit bekleme ile devam ediliyor.
+2026-09-04T11:35:56.963Z Tarih seçildi: "25 Sep 26" (selector: .base-Option-root)
+2026-09-04T11:35:59.464Z [SOL] Max Pain = 85 (tarih seçimi başarılı: true)
+2026-09-04T11:36:00.480Z [XRP] sayfaya gidiliyor: https://www.deribit.com/statistics/XRP/Metrics/Options
+2026-09-04T11:36:04.187Z Tarih seçici açıldı, kullanılan selector: .base-Select-root
+2026-09-04T11:36:07.189Z UYARI: "base--active" class'ı doğrulanamadı, sabit bekleme ile devam ediliyor.
+2026-09-04T11:36:07.639Z Tarih seçildi: "25 Sep 26" (selector: .base-Option-root)
+2026-09-04T11:36:10.141Z [XRP] Max Pain = 1.5 (tarih seçimi başarılı: true)
+2026-09-04T11:36:11.156Z [HYPE] sayfaya gidiliyor: https://www.deribit.com/statistics/HYPE/Metrics/Options
+2026-09-04T11:36:15.232Z Tarih seçici açıldı, kullanılan selector: .base-Select-root
+2026-09-04T11:36:18.235Z UYARI: "base--active" class'ı doğrulanamadı, sabit bekleme ile devam ediliyor.
+2026-09-04T11:36:18.686Z Tarih seçildi: "25 Sep 26" (selector: .base-Option-root)
+2026-09-04T11:36:21.188Z [HYPE] Max Pain = 76 (tarih seçimi başarılı: true)
+2026-09-04T11:36:22.271Z 1 toplam kayıt "/home/runner/work/mxpain/mxpain/solxprmxpn.json" dosyasına yazıldı.
