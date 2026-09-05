@@ -1,85 +1,58 @@
-{
-  "btc": {
-    "name": "BTC",
-    "today": "79,683$",
-    "maxPain": "72,000$",
-    "short": {
-      "decision": "SELL",
-      "rawDecision": "Sat"
-    },
-    "mid": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
-    },
-    "long": {
-      "decision": "HOLD",
-      "rawDecision": "Hold"
-    },
-    "speedometer": "73"
-  },
-  "eth": {
-    "name": "ETH",
-    "today": "2,456$",
-    "maxPain": "2,150$",
-    "short": {
-      "decision": "SELL",
-      "rawDecision": "Sat"
-    },
-    "mid": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
-    },
-    "long": {
-      "decision": "HOLD",
-      "rawDecision": "Hold"
-    },
-    "speedometer": "67"
-  },
-  "topAltcoinPerformance": {
-    "period": "60",
-    "data": [
+[
+  {
+    "run_timestamp_utc": "2026-09-05T10:48:02.782Z",
+    "target_expiry_label": "25 Sep 26",
+    "results": [
       {
-        "symbol": "PUMP",
-        "performance": "136.04%"
-      },
-      {
-        "symbol": "ENA",
-        "performance": "87.99%"
-      },
-      {
-        "symbol": "ZEC",
-        "performance": "82.32%"
-      },
-      {
-        "symbol": "DASH",
-        "performance": "77.67%"
-      },
-      {
-        "symbol": "UNI",
-        "performance": "69.30%"
-      },
-      {
-        "symbol": "LIT",
-        "performance": "56.22%"
-      },
-      {
-        "symbol": "XMR",
-        "performance": "33.75%"
-      },
-      {
-        "symbol": "CHAINLINK",
-        "performance": "22.68%"
-      },
-      {
-        "symbol": "AAVE",
-        "performance": "16.80%"
+        "symbol": "BTC",
+        "url": "https://www.deribit.com/statistics/BTC/Metrics/Options",
+        "target_expiry_label": "25 Sep 26",
+        "scraped_at_utc": "2026-09-05T10:48:03.377Z",
+        "max_pain_raw_text": "Max Pain Price $72,000.00",
+        "max_pain_value": 72000,
+        "date_selection_succeeded": true,
+        "error": null
       },
       {
         "symbol": "ETH",
-        "performance": "12.46%"
+        "url": "https://www.deribit.com/statistics/ETH/Metrics/Options",
+        "target_expiry_label": "25 Sep 26",
+        "scraped_at_utc": "2026-09-05T10:48:14.847Z",
+        "max_pain_raw_text": "Max Pain Price $2,150.00",
+        "max_pain_value": 2150,
+        "date_selection_succeeded": true,
+        "error": null
+      },
+      {
+        "symbol": "SOL",
+        "url": "https://www.deribit.com/statistics/SOL/Metrics/Options",
+        "target_expiry_label": "25 Sep 26",
+        "scraped_at_utc": "2026-09-05T10:48:25.831Z",
+        "max_pain_raw_text": "Max Pain Price $85.00",
+        "max_pain_value": 85,
+        "date_selection_succeeded": true,
+        "error": null
+      },
+      {
+        "symbol": "XRP",
+        "url": "https://www.deribit.com/statistics/XRP/Metrics/Options",
+        "target_expiry_label": "25 Sep 26",
+        "scraped_at_utc": "2026-09-05T10:48:37.045Z",
+        "max_pain_raw_text": "Max Pain Price $1.50",
+        "max_pain_value": 1.5,
+        "date_selection_succeeded": true,
+        "error": null
+      },
+      {
+        "symbol": "HYPE",
+        "url": "https://www.deribit.com/statistics/HYPE/Metrics/Options",
+        "target_expiry_label": "25 Sep 26",
+        "scraped_at_utc": "2026-09-05T10:48:47.755Z",
+        "max_pain_raw_text": "Max Pain Price $76.00",
+        "max_pain_value": 76,
+        "date_selection_succeeded": true,
+        "error": null
       }
     ]
-  },
-  "marketpulseCrypto": "43%",
-  "lastUpdated": "2026-09-05T06:15:37.967Z"
-}
+  }
+]
