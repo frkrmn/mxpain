@@ -5180,3 +5180,24 @@ TROUBLESHOOTING: https://pptr.dev/troubleshooting
 2026-10-20T11:55:42.848Z Tarih seçildi: "30 Oct 26" (selector: .base-Option-root)
 2026-10-20T11:55:45.350Z [HYPE] Max Pain = 86 (tarih seçimi başarılı: true)
 2026-10-20T11:55:46.440Z 1 toplam kayıt "/home/runner/work/mxpain/mxpain/solxprmxpn.json" dosyasına yazıldı.
+2026-10-21T06:00:04.498Z Bu çalıştırma için hedef vade: 30 Oct 26
+2026-10-21T06:00:06.497Z [BTC] sayfaya gidiliyor: https://www.deribit.com/statistics/BTC/Metrics/Options
+2026-10-21T06:01:01.776Z UYARI: Tarih seçici butonu bulunamadı/açılamadı.
+2026-10-21T06:01:04.294Z [BTC] UYARI: Max Pain değeri sayfada bulunamadı.
+2026-10-21T06:01:05.376Z [ETH] sayfaya gidiliyor: https://www.deribit.com/statistics/ETH/Metrics/Options
+2026-10-21T06:01:45.032Z UYARI: Tarih seçici butonu bulunamadı/açılamadı.
+2026-10-21T06:01:47.545Z [ETH] UYARI: Max Pain değeri sayfada bulunamadı.
+2026-10-21T06:01:48.724Z [SOL] sayfaya gidiliyor: https://www.deribit.com/statistics/SOL/Metrics/Options
+2026-10-21T06:02:32.984Z UYARI: Tarih seçici butonu bulunamadı/açılamadı.
+2026-10-21T06:02:35.581Z [SOL] UYARI: Max Pain değeri sayfada bulunamadı.
+2026-10-21T06:02:36.693Z [XRP] sayfaya gidiliyor: https://www.deribit.com/statistics/XRP/Metrics/Options
+2026-10-21T06:02:58.324Z Tarih seçici açıldı, kullanılan selector: button.base-Select-root
+2026-10-21T06:03:01.387Z UYARI: "base--active" class'ı doğrulanamadı, sabit bekleme ile devam ediliyor.
+2026-10-21T06:03:10.540Z Tarih seçildi: "30 Oct 26" (selector: .base-Option-root)
+2026-10-21T06:03:13.050Z [XRP] Max Pain = 1.4 (tarih seçimi başarılı: true)
+2026-10-21T06:03:14.194Z [HYPE] sayfaya gidiliyor: https://www.deribit.com/statistics/HYPE/Metrics/Options
+2026-10-21T06:03:42.667Z Tarih seçici açıldı, kullanılan selector: [class*="base-Select-root"]
+2026-10-21T06:03:45.776Z UYARI: "base--active" class'ı doğrulanamadı, sabit bekleme ile devam ediliyor.
+2026-10-21T06:03:50.843Z Tarih seçildi: "30 Oct 26" (selector: .base-Option-root)
+2026-10-21T06:03:53.352Z [HYPE] Max Pain = 86 (tarih seçimi başarılı: true)
+2026-10-21T06:03:55.336Z 1 toplam kayıt "/home/scraper/mxpain/solxprmxpn.json" dosyasına yazıldı.
