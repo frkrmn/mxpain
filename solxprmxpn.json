@@ -28,9 +28,9 @@
         "url": "https://www.deribit.com/statistics/SOL/Metrics/Options",
         "target_expiry_label": "30 Oct 26",
         "scraped_at_utc": "2026-10-21T06:01:49.228Z",
-        "max_pain_raw_text": null,
-        "max_pain_value": null,
-        "date_selection_succeeded": false,
+        "max_pain_raw_text": "Max Pain Price $105",
+        "max_pain_value": 105,
+        "date_selection_succeeded": true,
         "error": null
       },
       {
