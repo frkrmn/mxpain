@@ -6816,3 +6816,20 @@ TROUBLESHOOTING: https://pptr.dev/troubleshooting
 2026-11-21T06:03:11.014Z Tarih seçildi: "27 Nov 26" (selector: .base-Option-root)
 2026-11-21T06:03:13.535Z [HYPE] UYARI: Max Pain değeri sayfada bulunamadı.
 2026-11-21T06:03:15.395Z 1 toplam kayıt "/home/scraper/mxpain/solxprmxpn.json" dosyasına yazıldı.
+2026-11-21T14:49:59.321Z Bu çalıştırma için hedef vade: 27 Nov 26
+2026-11-21T14:49:59.599Z [BTC] sayfaya gidiliyor: https://www.deribit.com/statistics/BTC/Metrics/Options
+2026-11-21T14:50:35.287Z UYARI: Tarih seçici butonu bulunamadı/açılamadı.
+2026-11-21T14:50:37.792Z [BTC] UYARI: Max Pain değeri sayfada bulunamadı.
+2026-11-21T14:50:38.804Z [ETH] sayfaya gidiliyor: https://www.deribit.com/statistics/ETH/Metrics/Options
+2026-11-21T14:51:14.344Z UYARI: Tarih seçici butonu bulunamadı/açılamadı.
+2026-11-21T14:51:16.848Z [ETH] UYARI: Max Pain değeri sayfada bulunamadı.
+2026-11-21T14:51:17.859Z [SOL] sayfaya gidiliyor: https://www.deribit.com/statistics/SOL/Metrics/Options
+2026-11-21T14:51:53.438Z UYARI: Tarih seçici butonu bulunamadı/açılamadı.
+2026-11-21T14:51:55.942Z [SOL] UYARI: Max Pain değeri sayfada bulunamadı.
+2026-11-21T14:51:56.952Z [XRP] sayfaya gidiliyor: https://www.deribit.com/statistics/XRP/Metrics/Options
+2026-11-21T14:52:32.522Z UYARI: Tarih seçici butonu bulunamadı/açılamadı.
+2026-11-21T14:52:35.026Z [XRP] UYARI: Max Pain değeri sayfada bulunamadı.
+2026-11-21T14:52:36.038Z [HYPE] sayfaya gidiliyor: https://www.deribit.com/statistics/HYPE/Metrics/Options
+2026-11-21T14:53:11.613Z UYARI: Tarih seçici butonu bulunamadı/açılamadı.
+2026-11-21T14:53:14.117Z [HYPE] UYARI: Max Pain değeri sayfada bulunamadı.
+2026-11-21T14:53:15.200Z 1 toplam kayıt "/home/runner/work/mxpain/mxpain/solxprmxpn.json" dosyasına yazıldı.
