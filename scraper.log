@@ -6833,3 +6833,24 @@ TROUBLESHOOTING: https://pptr.dev/troubleshooting
 2026-11-21T14:53:11.613Z UYARI: Tarih seçici butonu bulunamadı/açılamadı.
 2026-11-21T14:53:14.117Z [HYPE] UYARI: Max Pain değeri sayfada bulunamadı.
 2026-11-21T14:53:15.200Z 1 toplam kayıt "/home/runner/work/mxpain/mxpain/solxprmxpn.json" dosyasına yazıldı.
+2026-11-22T06:00:04.643Z Bu çalıştırma için hedef vade: 27 Nov 26
+2026-11-22T06:00:08.897Z [BTC] sayfaya gidiliyor: https://www.deribit.com/statistics/BTC/Metrics/Options
+2026-11-22T06:00:29.677Z Tarih seçici açıldı, kullanılan selector: button.base-Select-root
+2026-11-22T06:00:32.708Z UYARI: "base--active" class'ı doğrulanamadı, sabit bekleme ile devam ediliyor.
+2026-11-22T06:00:33.616Z Tarih seçildi: "27 Nov 26" (selector: .base-Option-root)
+2026-11-22T06:00:36.677Z [BTC] UYARI: Max Pain değeri sayfada bulunamadı.
+2026-11-22T06:00:38.294Z [ETH] sayfaya gidiliyor: https://www.deribit.com/statistics/ETH/Metrics/Options
+2026-11-22T06:00:53.741Z Tarih seçici açıldı, kullanılan selector: button.base-Select-root
+2026-11-22T06:00:56.761Z UYARI: "base--active" class'ı doğrulanamadı, sabit bekleme ile devam ediliyor.
+2026-11-22T06:01:03.114Z Tarih seçildi: "27 Nov 26" (selector: .base-Option-root)
+2026-11-22T06:01:05.628Z [ETH] UYARI: Max Pain değeri sayfada bulunamadı.
+2026-11-22T06:01:06.777Z [SOL] sayfaya gidiliyor: https://www.deribit.com/statistics/SOL/Metrics/Options
+2026-11-22T06:01:44.632Z UYARI: Tarih seçici butonu bulunamadı/açılamadı.
+2026-11-22T06:01:47.139Z [SOL] UYARI: Max Pain değeri sayfada bulunamadı.
+2026-11-22T06:01:48.185Z [XRP] sayfaya gidiliyor: https://www.deribit.com/statistics/XRP/Metrics/Options
+2026-11-22T06:02:25.617Z UYARI: Tarih seçici butonu bulunamadı/açılamadı.
+2026-11-22T06:02:28.125Z [XRP] UYARI: Max Pain değeri sayfada bulunamadı.
+2026-11-22T06:02:29.169Z [HYPE] sayfaya gidiliyor: https://www.deribit.com/statistics/HYPE/Metrics/Options
+2026-11-22T06:03:06.360Z UYARI: Tarih seçici butonu bulunamadı/açılamadı.
+2026-11-22T06:03:08.875Z [HYPE] UYARI: Max Pain değeri sayfada bulunamadı.
+2026-11-22T06:03:10.445Z 1 toplam kayıt "/home/scraper/mxpain/solxprmxpn.json" dosyasına yazıldı.
